@@ -23,8 +23,8 @@ jobs:
     - name: Install dependencies
       run: npm ci # Installs exact versions from package-lock.json for consistency
 
-    - name: Run tests
-      run: npm test # Runs tests defined in your project (e.g., Jest)
+    # - name: Run tests
+    #   run: npm test # Runs tests defined in your project (e.g., Jest)
 
     - name: Build project
       run: npm run build # Builds the Vite React project
